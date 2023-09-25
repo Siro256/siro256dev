@@ -8,6 +8,13 @@ body {
     align-items: center;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        filter: invert(1);
+    }
+}
+
 .image {
     width: 50vw;
 }
